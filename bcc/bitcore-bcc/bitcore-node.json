@@ -7,7 +7,7 @@
     "insight-api",
     "insight-ui"
   ],
-  "allowedOriginRegexp": "^https://(.+\\.)*trezor\\.io$",
+  "allowedOriginRegexp": "^https://(.+\\.)*coinid\\.io$",
   "servicesConfig": {
     "web": {
       "disablePolling": true

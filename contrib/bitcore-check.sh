@@ -4,7 +4,7 @@ import requests
 import sys
 import json
 
-COMPARE_URLS = ["insight.bitpay.com", "localbitcoinschain.com", "bitcore1.trezor.io", "bitcore3.trezor.io"]
+COMPARE_URLS = ["insight.bitpay.com", "localbitcoinschain.com", "bitcore1.coinid.io", "bitcore3.coinid.io"]
 
 def check_bitcore(bitcore_url):
     sync_url = "https://%s/api/sync" % bitcore_url
