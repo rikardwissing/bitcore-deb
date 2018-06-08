@@ -2,9 +2,7 @@ server {
     listen 80;
     listen 443 ssl;
 
-    server_name ~^testnet-bitcore\d+.coinid.org$; # Alter URL to corresponding coin
-
-    include snippets/snakeoil.conf;
+    server_name testnet-bitcore1.coinid.org; # Alter URL to corresponding coin
 
     root /home/bitcore/www;
     access_log /var/log/nginx/bitcore-testnet-access.log;
@@ -30,6 +28,5 @@ server {
     }
 
     real_ip_header X-Forwarded-For;
-
 }
 
